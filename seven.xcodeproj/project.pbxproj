@@ -14,6 +14,18 @@
 		BA55CAE51C8435DE00558E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */; };
 		BA55CAF01C8435DE00558E8E /* sevenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CAEF1C8435DE00558E8E /* sevenTests.swift */; };
 		BA55CAFB1C8435DE00558E8E /* sevenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */; };
+		BA55CB091C8436A200558E8E /* resultCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */; };
+		BA55CB161C84382300558E8E /* 中澤　郁斗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB0B1C84382300558E8E /* 中澤　郁斗.jpg */; };
+		BA55CB171C84382300558E8E /* 仁木未来.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB0C1C84382300558E8E /* 仁木未来.jpg */; };
+		BA55CB181C84382300558E8E /* 冨田沙希.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB0D1C84382300558E8E /* 冨田沙希.jpg */; };
+		BA55CB191C84382300558E8E /* 坂口裕紀.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB0E1C84382300558E8E /* 坂口裕紀.jpg */; };
+		BA55CB1A1C84382300558E8E /* 田中康隆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB0F1C84382300558E8E /* 田中康隆.jpg */; };
+		BA55CB1B1C84382300558E8E /* 福田かるな.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB101C84382300558E8E /* 福田かるな.jpg */; };
+		BA55CB1C1C84382300558E8E /* 花田奈々.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB111C84382300558E8E /* 花田奈々.jpg */; };
+		BA55CB1D1C84382300558E8E /* 藤井陽介.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB121C84382300558E8E /* 藤井陽介.jpg */; };
+		BA55CB1E1C84382300558E8E /* 関根由莉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB131C84382300558E8E /* 関根由莉.jpg */; };
+		BA55CB1F1C84382300558E8E /* 阪上葵.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB141C84382300558E8E /* 阪上葵.jpg */; };
+		BA55CB201C84382300558E8E /* 黒岩裕樹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA55CB151C84382300558E8E /* 黒岩裕樹.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		BA55CAF61C8435DE00558E8E /* sevenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sevenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA55CAFA1C8435DE00558E8E /* sevenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenUITests.swift; sourceTree = "<group>"; };
 		BA55CAFC1C8435DE00558E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultCollectionViewController.swift; sourceTree = "<group>"; };
+		BA55CB0B1C84382300558E8E /* 中澤　郁斗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中澤　郁斗.jpg"; sourceTree = "<group>"; };
+		BA55CB0C1C84382300558E8E /* 仁木未来.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "仁木未来.jpg"; sourceTree = "<group>"; };
+		BA55CB0D1C84382300558E8E /* 冨田沙希.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "冨田沙希.jpg"; sourceTree = "<group>"; };
+		BA55CB0E1C84382300558E8E /* 坂口裕紀.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "坂口裕紀.jpg"; sourceTree = "<group>"; };
+		BA55CB0F1C84382300558E8E /* 田中康隆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "田中康隆.jpg"; sourceTree = "<group>"; };
+		BA55CB101C84382300558E8E /* 福田かるな.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "福田かるな.jpg"; sourceTree = "<group>"; };
+		BA55CB111C84382300558E8E /* 花田奈々.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "花田奈々.jpg"; sourceTree = "<group>"; };
+		BA55CB121C84382300558E8E /* 藤井陽介.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "藤井陽介.jpg"; sourceTree = "<group>"; };
+		BA55CB131C84382300558E8E /* 関根由莉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "関根由莉.jpg"; sourceTree = "<group>"; };
+		BA55CB141C84382300558E8E /* 阪上葵.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "阪上葵.jpg"; sourceTree = "<group>"; };
+		BA55CB151C84382300558E8E /* 黒岩裕樹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黒岩裕樹.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +121,14 @@
 		BA55CAD91C8435DE00558E8E /* seven */ = {
 			isa = PBXGroup;
 			children = (
+				BA55CB0A1C84382300558E8E /* あいほん */,
 				BA55CADA1C8435DE00558E8E /* AppDelegate.swift */,
 				BA55CADC1C8435DE00558E8E /* ViewController.swift */,
 				BA55CADE1C8435DE00558E8E /* Main.storyboard */,
 				BA55CAE11C8435DE00558E8E /* Assets.xcassets */,
 				BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */,
 				BA55CAE61C8435DE00558E8E /* Info.plist */,
+				BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */,
 			);
 			path = seven;
 			sourceTree = "<group>";
@@ -123,6 +149,24 @@
 				BA55CAFC1C8435DE00558E8E /* Info.plist */,
 			);
 			path = sevenUITests;
+			sourceTree = "<group>";
+		};
+		BA55CB0A1C84382300558E8E /* あいほん */ = {
+			isa = PBXGroup;
+			children = (
+				BA55CB0B1C84382300558E8E /* 中澤　郁斗.jpg */,
+				BA55CB0C1C84382300558E8E /* 仁木未来.jpg */,
+				BA55CB0D1C84382300558E8E /* 冨田沙希.jpg */,
+				BA55CB0E1C84382300558E8E /* 坂口裕紀.jpg */,
+				BA55CB0F1C84382300558E8E /* 田中康隆.jpg */,
+				BA55CB101C84382300558E8E /* 福田かるな.jpg */,
+				BA55CB111C84382300558E8E /* 花田奈々.jpg */,
+				BA55CB121C84382300558E8E /* 藤井陽介.jpg */,
+				BA55CB131C84382300558E8E /* 関根由莉.jpg */,
+				BA55CB141C84382300558E8E /* 阪上葵.jpg */,
+				BA55CB151C84382300558E8E /* 黒岩裕樹.jpg */,
+			);
+			path = "あいほん";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +276,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA55CB1F1C84382300558E8E /* 阪上葵.jpg in Resources */,
+				BA55CB1E1C84382300558E8E /* 関根由莉.jpg in Resources */,
 				BA55CAE51C8435DE00558E8E /* LaunchScreen.storyboard in Resources */,
+				BA55CB1B1C84382300558E8E /* 福田かるな.jpg in Resources */,
+				BA55CB201C84382300558E8E /* 黒岩裕樹.jpg in Resources */,
+				BA55CB1A1C84382300558E8E /* 田中康隆.jpg in Resources */,
+				BA55CB161C84382300558E8E /* 中澤　郁斗.jpg in Resources */,
+				BA55CB181C84382300558E8E /* 冨田沙希.jpg in Resources */,
+				BA55CB1C1C84382300558E8E /* 花田奈々.jpg in Resources */,
+				BA55CB191C84382300558E8E /* 坂口裕紀.jpg in Resources */,
 				BA55CAE21C8435DE00558E8E /* Assets.xcassets in Resources */,
 				BA55CAE01C8435DE00558E8E /* Main.storyboard in Resources */,
+				BA55CB171C84382300558E8E /* 仁木未来.jpg in Resources */,
+				BA55CB1D1C84382300558E8E /* 藤井陽介.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +316,7 @@
 			files = (
 				BA55CADD1C8435DE00558E8E /* ViewController.swift in Sources */,
 				BA55CADB1C8435DE00558E8E /* AppDelegate.swift in Sources */,
+				BA55CB091C8436A200558E8E /* resultCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
