@@ -65,13 +65,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C0J-gs-AKC">
-                                <rect key="frame" x="45" y="281" width="240" height="128"/>
+                                <rect key="frame" x="52" y="363" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="adanalabel" destination="LKS-zv-1He" id="ofU-qe-8Jb"/>
                         <outlet property="haikeiImageView" destination="C0J-gs-AKC" id="j6H-hH-J0q"/>
                         <outlet property="meishiImageView" destination="n5z-42-0cw" id="h3p-pS-zfS"/>
                     </connections>

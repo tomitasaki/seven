@@ -14,6 +14,7 @@ class resultviewCollectionViewController: UIViewController {
     
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
+    @IBOutlet var adanalabel: UILabel!
     
     var meishiArray:[UIImage]!
     
@@ -39,8 +40,33 @@ class resultviewCollectionViewController: UIViewController {
         ]
         
         meishiImageView.image = meishiArray[number]
+        
+        
+        
+        if number == 1 {
+            adanalabel.text = "ななな"
+        }else if number == 2{
+            adanalabel.text =  "ゆーりんちー"
+        }else if number == 3{
+            adanalabel.text =  "ふゅーちゃー"
+        }else if number == 4{
+            adanalabel.text = "とみこ"
+        }else if number == 5{
+            adanalabel.text =  "かる"
+        }else if number == 6{
+            adanalabel.text =  "さかてぃ"
+        }else if number == 7{
+            adanalabel.text =  "フンジン"
+        }else if number == 8{
+            adanalabel.text =  "ヤスタカ"
+        }else if number == 9 {
+            adanalabel.text =  "とうよう"
+        }else if number == 10 {
+            adanalabel.text =  "うえ"
+        }else  number == 11{
+            adanalabel.text = "いっしー"
+        }
     }
-    
     
     
     
@@ -49,10 +75,11 @@ class resultviewCollectionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func back(){
+    @IBAction  func back(){
         self.dismissViewControllerAnimated(true, completion: nil)
         
     }
     
     
 }
+
