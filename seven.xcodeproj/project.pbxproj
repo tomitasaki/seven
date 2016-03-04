@@ -28,6 +28,7 @@
 		BAD4C3961C86A7CC00540727 /* tomita_saki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */; };
 		BAD4C3981C874BA100540727 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3971C874BA100540727 /* book.png */; };
 		BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3991C89732000540727 /* 美術館.jpg */; };
+		BAD4C3A41C8992A900540727 /* C789_doornomukou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomita_saki.jpg; sourceTree = "<group>"; };
 		BAD4C3971C874BA100540727 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		BAD4C3991C89732000540727 /* 美術館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美術館.jpg"; sourceTree = "<group>"; };
+		BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C789_doornomukou.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				BA55CADC1C8435DE00558E8E /* ViewController.swift */,
 				BA55CADE1C8435DE00558E8E /* Main.storyboard */,
 				BA55CAE11C8435DE00558E8E /* Assets.xcassets */,
+				BAD4C3A31C8992A900540727 /* C789_doornomukou.jpg */,
 				BA55CAE31C8435DE00558E8E /* LaunchScreen.storyboard */,
 				BA55CAE61C8435DE00558E8E /* Info.plist */,
 				BA55CB081C8436A200558E8E /* resultCollectionViewController.swift */,
@@ -284,6 +287,7 @@
 			files = (
 				BAD4C38C1C86A7CC00540727 /* hanada_nana.jpg in Resources */,
 				BAD4C3931C86A7CC00540727 /* sakaue_aoi.jpg in Resources */,
+				BAD4C3A41C8992A900540727 /* C789_doornomukou.jpg in Resources */,
 				BAD4C3951C86A7CC00540727 /* tanaka_yasutaka.jpg in Resources */,
 				BAD4C38E1C86A7CC00540727 /* hukuda_karuna.jpg in Resources */,
 				BAD4C38D1C86A7CC00540727 /* hujii_yousuke.jpg in Resources */,

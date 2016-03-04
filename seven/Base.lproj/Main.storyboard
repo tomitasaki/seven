@@ -9,36 +9,38 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="seven" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fxq-yK-EWT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book.png" translatesAutoresizingMaskIntoConstraints="NO" id="goU-83-yKY">
-                                <rect key="frame" x="25" y="108" width="270" height="352"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVt-AX-gpA">
-                                <rect key="frame" x="153" y="271" width="70" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="open">
-                                    <color key="titleColor" red="0.96695965920000004" green="0.98237126890000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="open" destination="BYZ-38-t0r" eventType="touchUpInside" id="YZq-0l-1Ks"/>
-                                    <segue destination="NQ8-2J-uai" kind="presentation" identifier="result" modalTransitionStyle="crossDissolve" id="mc3-Jn-UPS"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button"/>
+                        <connections>
+                            <segue destination="NQ8-2J-uai" kind="show" id="ZbO-qM-6Cf"/>
+                        </connections>
+                    </button>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="258" y="303"/>
+            <point key="canvasLocation" x="260" y="197"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HJb-dC-J6s">
+            <objects>
+                <viewController id="pxf-w6-1rX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z5p-aB-ipC"/>
+                        <viewControllerLayoutGuide type="bottom" id="2p8-CU-9gr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="if1-Ds-yFY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YTa-qy-Atu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="706" y="-12"/>
         </scene>
         <!--Resultview Collection View Controller-->
         <scene sceneID="RrJ-3u-Ms3">
@@ -86,17 +88,17 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="adanalabel" destination="LKS-zv-1He" id="ofU-qe-8Jb"/>
+                        <outlet property="cuorselabel" destination="fZf-Lf-oFP" id="BGP-u4-i7M"/>
                         <outlet property="haikeiImageView" destination="C0J-gs-AKC" id="j6H-hH-J0q"/>
                         <outlet property="meishiImageView" destination="n5z-42-0cw" id="h3p-pS-zfS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0f-Zg-ASz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="694" y="375"/>
+            <point key="canvasLocation" x="693" y="603"/>
         </scene>
     </scenes>
     <resources>
-        <image name="book.png" width="684" height="902"/>
         <image name="美術館.jpg" width="1222" height="869"/>
     </resources>
 </document>
