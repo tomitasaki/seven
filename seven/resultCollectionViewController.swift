@@ -26,6 +26,7 @@ class resultviewCollectionViewController: UIViewController {
     @IBOutlet var haikeiImageView: UIImageView!
     @IBOutlet var meishiImageView: UIImageView!
     @IBOutlet var adanalabel: UILabel!
+    @IBOutlet var cuorselabel: UILabel!
     
     var meishiArray:[UIImage]!
     
@@ -76,22 +77,32 @@ class resultviewCollectionViewController: UIViewController {
             adanalabel.text =  "うえ"
         }else {
             adanalabel.text = "いっしー"
+        
         }
     }
-    
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    //@IBAction「パーツに何か変化を加えたときの動作をプログラムへ引き渡す」
-    //func()「関数が今回自分で作った自作関数」
-    @IBAction  func back(){
-        self.dismissViewControllerAnimated(true, completion: nil)
         
+        if number == 11 {
+            cuorselabel.text = "iphone"
+        }else if number == 1{
+            adanalabel.text =  "ゆーりんちー"
+        }else {
+            adanalabel.text = "いっしー"
+        }
     }
-    
-    
+            
+            
+            override func didReceiveMemoryWarning() {
+                super.didReceiveMemoryWarning()
+                
+                // Dispose of any resources that can be recreated.
+            }
+            //@IBAction「パーツに何か変化を加えたときの動作をプログラムへ引き渡す」
+            //func()「関数が今回自分で作った自作関数」
+            @IBAction  func back(){
+                self.dismissViewControllerAnimated(true, completion: nil)
+                
+            }
+            
+            
 }
 

@@ -27,6 +27,7 @@
 		BAD4C3951C86A7CC00540727 /* tanaka_yasutaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C38A1C86A7CC00540727 /* tanaka_yasutaka.jpg */; };
 		BAD4C3961C86A7CC00540727 /* tomita_saki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */; };
 		BAD4C3981C874BA100540727 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3971C874BA100540727 /* book.png */; };
+		BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C3991C89732000540727 /* 美術館.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		BAD4C38A1C86A7CC00540727 /* tanaka_yasutaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanaka_yasutaka.jpg; sourceTree = "<group>"; };
 		BAD4C38B1C86A7CC00540727 /* tomita_saki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomita_saki.jpg; sourceTree = "<group>"; };
 		BAD4C3971C874BA100540727 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		BAD4C3991C89732000540727 /* 美術館.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美術館.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				BAD4C3971C874BA100540727 /* book.png */,
+				BAD4C3991C89732000540727 /* 美術館.jpg */,
 				BAD4C3801C86A7CC00540727 /* iphone */,
 				BA55CADA1C8435DE00558E8E /* AppDelegate.swift */,
 				BA55CADC1C8435DE00558E8E /* ViewController.swift */,
@@ -294,6 +297,7 @@
 				BAD4C3941C86A7CC00540727 /* sekine_yuri.jpg in Resources */,
 				BAD4C3911C86A7CC00540727 /* niki_mirai.jpg in Resources */,
 				BAD4C38F1C86A7CC00540727 /* ishiguro_yuuki.jpg in Resources */,
+				BAD4C39A1C89732000540727 /* 美術館.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
