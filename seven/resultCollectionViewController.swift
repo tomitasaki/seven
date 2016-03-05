@@ -47,8 +47,11 @@ class resultviewCollectionViewController: UIViewController {
             UIImage(named: "nakazawa_humito.jpg")!,//6
             UIImage(named: "tanaka_yasutaka.jpg")!,//7
             UIImage(named: "hujii_yousuke.jpg")!,//8
-            UIImage(named: "sakaue_aoi.jpg")!,//9
-            UIImage(named: "ishiguro_yuuki.jpg")!//10
+            UIImage(named: "kubo_honami.jpg")!,//9
+            UIImage(named: "moriizumi_ryousuke.jpg")!,//10
+            UIImage(named: "sakaue_aoi.jpg")!,//11
+            UIImage(named: "ishiguro_yuuki.jpg")!//12
+            
         ]
         
         meishiImageView.image = meishiArray[number]
@@ -74,12 +77,16 @@ class resultviewCollectionViewController: UIViewController {
         }else if number == 8 {
             adanalabel.text =  "とうよう"
         }else if number == 9 {
+            adanalabel.text =  "ほなみ"
+        }else if number == 10 {
+            adanalabel.text =  "いずみーる"
+        }else if number ==  11 {
             adanalabel.text =  "うえ"
         }else {
             adanalabel.text = "いっしー"
             
         }
-        if number >= 0 && number <= 10{
+        if number >= 0 && number <= 12{
             cuorselabel.text = "iphone"
             
         }
@@ -88,25 +95,25 @@ class resultviewCollectionViewController: UIViewController {
     //   if number <= 10 {
     //    cuorselabel.text = "iphone"
     
-//     cuorselabel.text = "iphone"
-// }else if number == 1{
-//    adanalabel.text =  "ゆーりんちー"
-//}else {
-//   adanalabel.text = "いっしー"
-
-
-override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
+    //     cuorselabel.text = "iphone"
+    // }else if number == 1{
+    //    adanalabel.text =  "ゆーりんちー"
+    //}else {
+    //   adanalabel.text = "いっしー"
     
-    // Dispose of any resources that can be recreated.
-}
-//@IBAction「パーツに何か変化を加えたときの動作をプログラムへ引き渡す」
-//func()「関数が今回自分で作った自作関数」
-@IBAction  func back(){
-    self.dismissViewControllerAnimated(true, completion: nil)
     
-}
-
-
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        // Dispose of any resources that can be recreated.
+    }
+    //@IBAction「パーツに何か変化を加えたときの動作をプログラムへ引き渡す」
+    //func()「関数が今回自分で作った自作関数」
+    @IBAction  func back(){
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
+    
+    
 }
 

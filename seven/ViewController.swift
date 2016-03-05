@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func open(){
-        self.performSegueWithIdentifier("result", sender: nil)
+        self.performSegueWithIdentifier("select", sender: nil)
+       
     }
 
 }
